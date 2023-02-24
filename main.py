@@ -3,7 +3,7 @@ s = "*" *30
 print("New project")
 print(s)
 
-#Написать алгоритм генерации пароля.
+#Написать алгоритм генерации пароля
 
 import random
 chars='abcdefghijklmnopkrstunvwxyzABCDEFGHIJKLMNOPQRSTUNVWXYZ0123456789!.,/?\|=+-_)(*&^%$#@~'
@@ -19,4 +19,4 @@ try:
             password+=random.choice(chars);
         print('Пароль получился:\n',password)
 except ValueError:
-    print('Длина пароля должна состоять из целочисленных цифр!')
+    print('Длина пароля должна состоять из целочисленных цифр')
